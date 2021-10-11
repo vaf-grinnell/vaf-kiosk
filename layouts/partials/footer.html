@@ -1,0 +1,4 @@
+<footer>
+	{{ with .Site.Params.footertext }}{{ . | markdownify }}{{ end }}<br/>
+  <span>Updated: {{ now.Local.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }}<span>
+</footer>

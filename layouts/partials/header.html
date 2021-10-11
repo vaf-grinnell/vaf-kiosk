@@ -1,0 +1,22 @@
+     {{ $baseurl := .Site.BaseURL }}
+			<header class="clearfix">
+        <span>
+					<img src="{{ .Site.BaseURL }}/images/banner-45-px-height.png"/>
+        </span>
+        <span>
+					<nav class="top-nav">
+					  {{ range .Site.Menus.main }}
+					    <a href="{{ .URL }}" title="{{ .Title }}">
+					      {{- .Name -}}
+					      {{- with .Page -}}
+					        <span class="date">
+					        {{- dateFormat " (2006-01-02)" .Date -}}
+					        </span>
+					      {{- end -}}
+					    </a>
+					  {{ end }}
+					</nav>
+				</span>
+
+				<h1>{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}<span>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</span></h1>
+			</header>

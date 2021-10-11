@@ -1,0 +1,70 @@
+baseurl = "https://vaf.grinnell.edu/vaf-kiosk/"
+#baseurl = "https://digital-grinnell.github.io/vaf_kiosk/"
+#baseurl = "https://vaf.grinnell.edu/"
+#baseurl = "https://static.grinnell.edu/vaf/"
+#baseurl = "https://var.docksal/"
+#baseurl = "http://localhost:8081/"
+
+languageCode = "en-us"
+title = "Visualizing Abolition and Freedom"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+# googleAnalytics = "UA-4766052-15"
+googleAnalytics = "G-BDW4VK52TQ"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "Visualizing Abolition and Freedom"
+    # subtitle = "Edit config.toml|params|subtitle to change this."
+    # author = "This is config.toml|params|author"
+    # description = "This is config.toml|params|description"
+    keywords = "abolition, freedom, Haiti, art, Grinnell College, HSSC"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Visit this object in Digital.Grinnell"
+
+    # Footer text
+    footertext = "[&copy; Grinnell College Libraries](https://www.grinnell.edu/academics/libraries)"
+    # footertext = "&copy; Grinnell College Libraries"
+
+    # add custom css
+    custom_css = ['/css/custom.css']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      linkify = false
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Lifted from https://gohugo.io/content-management/menus/
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='home-page'></i>"
+    url = "/"
+    weight = -120
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About the Project"
+    pre = "<i class='about-page'></i>"
+    url = "/about/"
+    weight = -110
+
+   [[menu.main]]
+     identifier = "acknowledgements"
+     name = "Production Credits"
+     pre = "<i class='acknowledgements-page'></i>"
+     url = "/acknowledgements/"
+     weight = -100

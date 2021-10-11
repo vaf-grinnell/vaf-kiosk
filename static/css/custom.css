@@ -1,0 +1,143 @@
+
+.container {
+  width: 750px;
+  margin: 0px auto;
+}
+
+li {
+  display: none;
+}
+
+.og-grid {
+  padding: 0;
+}
+
+.og-grid li {
+  margin: 2px 0;
+  height: 121px;
+  width: 142px;
+}
+
+nav.top-nav a {
+  padding: 0 1em;
+  color: black;
+}
+
+/*
+.thumbnail {
+  height: 240px;
+  width: 275px;
+}
+*/
+
+.container > header {
+  padding: 10px 30px 0px;
+}
+
+.og-expander {
+  margin: 10px;
+  background: #f6f0f080;
+}
+
+.og-expander h3 {
+  font-size: 25px;
+}
+
+/* The next section hides the links back to Digital.Grinnell */
+.og-expander a {
+  display: none;
+}
+
+.og-expander-inner {
+  padding: 10px;
+}
+
+.og-grid {
+   padding: 12px 0;
+ }
+
+.og-details div.og-creator {
+  font-weight: bold;
+}
+
+.og-details h3 {
+  padding: 5px 0;
+}
+
+.og-details p {
+  color: #c73b2b;
+  margin: 1em 0;
+}
+
+.og-fullimg {
+  width: 50%;
+}
+
+.og-details {
+  width: 95%;
+  height: unset;
+  /* float: left; */
+  height: unset !important;
+  /* overflow: visible; */
+  position: relative;
+}
+
+footer > a {
+  font-size: 0.75em;
+}
+
+footer {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.custom-hr {
+  width: 74%;
+  margin-left: 13%;
+}
+
+img.inline {
+  padding: 10px;
+}
+
+p.right {
+  text-align: right;
+}
+
+p.left {
+  text-align: left;
+}
+
+p.clear {
+  clear: both;
+}
+
+/* Adjustments for the addition of URL links (public site ONLY!) */
+
+.og-fullimg img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+.og-details {
+  padding: 0 40px 10px 20px;
+}
+
+div.og-link {
+  /* comment out one of the following 'display...' lines to display or not display buttontext link to Digital.Grinnell */
+  display: none;
+  /* display: inline-block; */
+  width: 30%;
+  margin: 0 10px;
+  border: 2px solid #c73b2b;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.main > p {
+	text-align: center;
+	padding: 10px 20px 0 !important;
+  color: black;
+}
