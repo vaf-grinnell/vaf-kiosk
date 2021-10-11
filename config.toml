@@ -1,5 +1,5 @@
-baseurl = "https://vaf.grinnell.edu/vaf-kiosk/"
-#baseurl = "https://vaf-grinnell.github.io/vaf-kiosk/"
+baseurl = "https://vaf-grinnell.github.io/vaf-kiosk/"
+#baseurl = "https://vaf.grinnell.edu/vaf-kiosk/"
 #baseurl = "https://digital-grinnell.github.io/vaf_kiosk/"
 #baseurl = "https://vaf.grinnell.edu/"
 #baseurl = "https://static.grinnell.edu/vaf/"
